@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+h1 {
+    font-size: 24px;
+}
+
+.number-box {
+    font-size: 40px;
+    font-weight: bold;
+    padding: 20px;
+    margin: 10px auto;
+    background: #ddd;
+    width: 60px;
+    border-radius: 5px;
+}
+
+.buttons {
+    margin: 20px 0;
+}
+
+button {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#hai-btn {
+    background: green;
+    color: white;
+}
+
+#low-btn {
+    background: red;
+    color: white;
+}
+
+#restart-btn {
+    background-color: skyblue;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.hidden {  
+    display: none;
+    /* 画面に表示しないようにする処理 */
+}
+
+#result-message {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px;
+}

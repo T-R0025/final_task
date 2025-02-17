@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>javascript最終課題</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <h1>Hai&Low ゲーム</h1>
+        <p>現在の数字</p>
+        <div id="current-number" class="number-box"></div>
+        <div class="buttons">
+           <button id="hai-btn">High (↑)</button>  <!-- 大きい場合はこっち -->
+            <button id="low-btn">Low (↓)</button>  <!-- 小さい場合はこっち -->
+        </div>
+        <p>連続正解数: <span id="score">0</span></p>  <!-- 正解すると数字が増える -->
+        <div id="result-message"></div> <!-- ここに結果が表示されます-->
+        <button id="restart-btn" class="hidden">もう一度プレイ</button>
+    <script src="index.js"></script>
+</body>
+</html>
